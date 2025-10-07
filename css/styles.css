@@ -101,7 +101,7 @@ ul,ol {
     letter-spacing: 0.02em;
 }
 .team-section{
-    background-color: #FFFFFF;
+    background-color: #F4F4FD;
 }
 
 .h-second-text{
@@ -113,7 +113,7 @@ ul,ol {
     color: #2e2f42;
 }
 
-.team-list{
+.team-ul{
     background-color: #FFFFFF;
 }
 
