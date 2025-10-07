@@ -54,11 +54,11 @@ ul,ol {
         color: #434455;
 }
 
-.address-link .address-link:hover{
+.address-list .address-link:hover{
     color: #404bbf;
 }
 
-.address-link .address-link:focus{
+.address-list .address-link:focus{
     color: #404bbf;
 }
 
