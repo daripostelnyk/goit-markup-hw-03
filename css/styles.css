@@ -28,7 +28,7 @@ ul,ol {
     color: #2e2f42;
 }
 
-.nav-list{
+.nav-list .link-nav{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -47,7 +47,7 @@ ul,ol {
     font-style: normal;
 }
 
-.address-list{
+.address-list .address-link{
     font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -58,7 +58,7 @@ ul,ol {
     color: #404bbf;
 }
 
-.address-link .address-link:focus {
+.address-link .address-link:focus{
     color: #404bbf;
 }
 
