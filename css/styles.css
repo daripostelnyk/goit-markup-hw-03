@@ -36,10 +36,10 @@ ul,ol {
     color: #2e2f42;
 }
 
-.nav-list:hover{
+.nav-list .link-nav:hover{
     color: #404bbf;
 }
-.nav.list:focus{
+.nav-list .link-nav:focus{
     color: #404bbf;
 }
 
@@ -54,11 +54,11 @@ ul,ol {
         color: #434455;
 }
 
-.address-link:hover{
+.address-link .address-link:hover{
     color: #404bbf;
 }
 
-.address-link:focus {
+.address-link .address-link:focus {
     color: #404bbf;
 }
 
@@ -113,7 +113,7 @@ ul,ol {
     color: #2e2f42;
 }
 
-.team-ul{
+.team-item{
     background-color: #FFFFFF;
 }
 
