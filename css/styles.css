@@ -79,6 +79,7 @@ ul,ol {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
+    cursor: pointer;
 }
 .button.hover{
     background-color: #404BBF;
@@ -87,7 +88,7 @@ ul,ol {
     background-color: #404BBF;
 }
 
-.h3-text{
+.h-third-text{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -103,7 +104,7 @@ ul,ol {
     background-color: #F4F4FD;
 }
 
-.h2-text{
+.h-second-text{
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -130,7 +131,7 @@ ul,ol {
 .footer{
     background-color: #2e2f42;
 }
-.accent-2{
+.accent-footer{
     color: #f4f4fd;
 }
 .footer-text{
