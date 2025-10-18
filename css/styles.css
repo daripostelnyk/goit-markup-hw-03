@@ -1,15 +1,19 @@
+/* for the entire project */
 .body{
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
- h1, h2, h3, h4, h5, h6 {
-     font-family: 'Roboto';
- }
+ 
 ul,ol {
     list-style-type: none;
 } 
 
+a {
+    text-decoration: none;
+}
+
+/* navigation, top of page */
 .header{
     background-color: #FFFFFF;
 }
@@ -62,7 +66,10 @@ ul,ol {
     color: #404bbf;
 }
 
-.first-block{
+/* main page */
+
+/* first page */
+.first-section{
     background-color: #2e2f42;
 }
 .head-text{
@@ -88,6 +95,9 @@ ul,ol {
     background-color: #404BBF;
 }
 
+/* list page  */
+
+/* also for portfolio title text */
 .h-third-text{
     font-weight: 500;
     font-size: 20px;
@@ -95,11 +105,15 @@ ul,ol {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+
+ /* also for portfolio simple text */
 .text-simple{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+/* Our team page */
 .team-section{
     background-color: #F4F4FD;
 }
@@ -131,6 +145,7 @@ ul,ol {
     letter-spacing: 0.02em;
 }
 
+/* end of page */
 .footer{
     background-color: #2e2f42;
 }
