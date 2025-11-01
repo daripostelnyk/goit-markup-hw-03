@@ -33,7 +33,7 @@ button {
 
 /* for section */
 .container {
-    max-width: 1158px;
+    width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -63,10 +63,10 @@ button {
 .nav-list {
   display: flex;
   gap: 40px;
-  margin-left: 76px;
 }
 
 .nav-logo{
+    margin-right: 76px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -81,6 +81,7 @@ button {
 }
 
 .nav-list .link-nav{
+    padding: 24px 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
