@@ -34,8 +34,8 @@ button {
 /* for section */
 .container {
     max-width: 1158px;
-    padding: 0 15px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .section {
@@ -46,24 +46,22 @@ button {
 .header{
     background-color: #FFFFFF;
     border-bottom: 1px solid #e7e9fc;
-    margin: 0 auto;
 }
 
 .header-container {
     display: flex;
-    margin: 24px 156px;
+    padding: 24px 0;
     justify-content: space-between;
 }
 
 .navigation {
     display: flex;
-    margin-right: 76px;
     align-items: center;
+    
 }
 
 .nav-list {
   display: flex;
-  width: calc((100% - 80px) / 3);
   gap: 40px;
   margin-left: 76px;
 }
@@ -188,7 +186,7 @@ button {
         }
 
 .section-list {
-    display: inline-flex;
+    display: flex;
     gap: 24px;
     justify-content: space-between;
 }
