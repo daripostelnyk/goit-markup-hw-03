@@ -47,6 +47,23 @@ button {
     background-color: #FFFFFF;
 }
 
+.header-container {
+    display: flex;
+    margin: 24px 156px;
+    justify-content: space-between;
+}
+
+.navigation {
+    display: inline;
+}
+
+.nav-list {
+  display: inline-flex;
+  width: calc((100% - 80px) / 3);
+  gap: 40px;
+  margin-left: 76px;
+}
+
 .nav-logo{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -55,7 +72,6 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    display:inline;
 }
 
 .accent{
@@ -79,6 +95,10 @@ button {
 
 .address{
     font-style: normal;
+}
+.address-list {
+    display: inline-flex;
+    gap: 40px;
 }
 
 .address-list .address-link{
