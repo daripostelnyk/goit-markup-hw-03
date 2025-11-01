@@ -33,9 +33,9 @@ button {
 
 /* for section */
 .container {
-    width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+    width: 1158px;
 }
 
 .section {
@@ -49,6 +49,9 @@ button {
 }
 
 .header-container {
+    margin: 0 auto;
+    padding: 0 15px;
+     width: 1158px;
     display: flex;
     padding: 24px 0;
     justify-content: space-between;
