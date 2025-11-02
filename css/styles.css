@@ -44,13 +44,13 @@ button {
 
 /* navigation, top of page */
 .header{
-    padding: 24px 0;
     background-color: #FFFFFF;
     border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -66,6 +66,7 @@ button {
 }
 
 .nav-logo{
+    padding: 24px 0;
     margin-right: 76px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -81,6 +82,7 @@ button {
 }
 
 .nav-list .link-nav{
+    display: block;
     padding: 24px 0;
     font-weight: 500;
     font-size: 16px;
@@ -105,6 +107,8 @@ button {
 }
 
 .address-list .address-link{
+    display: block;
+    padding: 24px 0;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -168,8 +172,6 @@ button {
 /* list page  */
 
 .list-section {
-    display: flex;
-    flex-wrap: wrap;
     padding: 120px 0;
 }
 
@@ -234,7 +236,6 @@ button {
 .section-team {
     display: flex;
     justify-content: center;
-    margin-bottom: 120px;
     gap: 24px;
     justify-content: space-between;
 }
@@ -246,10 +247,6 @@ button {
 }
 
 .text-team-card {
-    display: flex;
-    flex-direction: column;
-    width: 232px;
-    align-items: center;
     padding: 32px 0;
 }
 
@@ -292,8 +289,12 @@ button {
     gap: 24px;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 120px;
     row-gap: 48px;
+}
+
+.item-portfolio {
+    width: calc((100% - 48px) / 3);
+    max-width: 360px;
 }
 
 .portfolio-text {
@@ -337,6 +338,13 @@ button {
     margin-bottom: 16px;
     flex-shrink: 0;
     max-width: 115px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
 }
 
 .accent-footer {
