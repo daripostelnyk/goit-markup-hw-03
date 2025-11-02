@@ -49,11 +49,8 @@ button {
 }
 
 .header-container {
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
     display: flex;
-    padding: 24px 0;
+    padding: 24px 15px;
     justify-content: space-between;
 }
 
