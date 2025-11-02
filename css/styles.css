@@ -34,8 +34,8 @@ button {
 /* for section */
 .container {
     width: 1158px;
-    margin: 0 auto;
     padding: 0 15px;
+    margin: 0 auto;
 }
 
 .section {
@@ -44,13 +44,13 @@ button {
 
 /* navigation, top of page */
 .header{
+    padding: 24px 0;
     background-color: #FFFFFF;
     border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
     display: flex;
-    padding: 24px 15px;
     justify-content: space-between;
 }
 
